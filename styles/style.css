@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+    font-family: var(--primary-font);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    font-weight: 800;
+    font-size: 15px;
+}
+.nav-title{
+    font-size: 35px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    justify-content: space-between;
+    padding: 50px 400px;
+    align-items: center;
+    gap: 20px;
+}
+.architects-info{
+    width: 400px;
+    height: 400px;
+}
+.architects-title{
+    font-size: 48px;
+}
+.architects-description{
+    font-weight: 700;
+    font-size: 19px;
+    color: rgb(23, 21, 21);
+}
+.bt-primary .btn{
+ display: flex;
+ flex-direction: row;
+ padding: 15px 10px;
+ gap: 20px;
+ background-color: rgb(218, 89, 4);
+ margin-right: 100px;
+}
+
+
+ img{
+
+    width: 440px;
+    
+
+    
+}
+.blogs{
+    display: flex;
+
+   justify-content: space-between;
+
+   padding: 100px 130px;
+}
+.thumbnail{
+    height: 100px;
+    width: 100px;
+    align-items: centers9;
+}
+.thumbnail img{
+    height: 200px;
+    width: 300px;
+}
+.main-container{
+    margin: 10px;
+    size: 20px;
+   
+}
+.quick-list-features-container{
+    padding-left: 50px;
+    margin: 80px 0 130px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 55px;
+}
+.quick-list-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quick-heading{
+    margin-bottom: 20px;
+   
+}
+.quick-heading span{
+color: rgb(192, 39, 182);
+font-weight: 500;
+}
+.quick-heading span:last-child{
+    display: block;
+    color: rgb(9, 46, 208);
+    
+}
+.quick-info{
+  
+    margin-bottom: 12px;
+   
+}
+.contant .course img{
+    height: 342px;
+    width: 342px;
+}      
+.valuable-features-container {
+    position: relative;
+    display: flex;
+    gap: 110px;
+    margin-bottom: 100px;
+    text-align: left;
+    align-items: flex-start;
+}
+.valuable-features-list{
+    padding-top: 35px;
+}
+.valuable-features-info{
+    margin-bottom: 30px;
+}
+.about-this-feature{
+    padding: 10px 11px 10px 10px;
+    width: 220px;
+    text-align: justify;
+    
+    margin-bottom: 12px;
+  box-shadow: #ff900e;
+  border-radius: 15px;
+    
+}
+.feature-heading{
+    margin-bottom: 10px;
+    color: var(--primary-text-color);
+    font-size: 20px;
+}
+.feature-info{
+    line-height: 20px;
+}
+.valuable-features-btn{
+    position: absolute;
+    bottom: -60px;
+    right: 450px;
+    padding: 45px 45px;
+    font-size: 45px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: var(--body-bg);
+    background-color: #ff900e;
+
+}
+.valuable-features-btn span{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+}
+.some-facts .about .info .option{
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    padding: 20px;
+    width: 35px;
+}
+.brand-logo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+
+}
+.logo-img .img{
+    margin-top: 15px;
+    height: 4px;
+width: 5px;
+gap:5px
+
+}
