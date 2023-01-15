@@ -188,3 +188,25 @@ width: 5px;
 gap:5px
 
 }
+@media screen and (max-width:576) {
+    .container{
+        flex-direction: column;
+        display: inline;
+    }
+}
+    @media screen and (max-width:373px){
+        .header-containre .-bannner-section-container
+
+        display: .banner;
+    }  
+    
+
+@media screen and (min-width: 577px) and (max-width:992px) {}
+@media only  screen and (max-width:535) {valuable-list-heading
+    {
+    font-size: 32px;
+    about-this-features:font-weight 30px
+}
+    
+}
+    
